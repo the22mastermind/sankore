@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^/blog/(.*)$ https://blog.sankore2.com/$1 [R=301,L]
